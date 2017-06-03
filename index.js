@@ -19,7 +19,27 @@ client.on('message', message => {
 
 client.on('message', message => {
   if (message.content === '!music') {
-    message.reply('Coming soon to the cibo discord!');
+    {
+    "attachments": [
+        {
+            "fallback": "Cibo Information",
+            "color": "#36a64f",
+            "pretext": " ",
+            "title": "About Cibo",
+            "title_link": "https://www.roblox.com/groups/group.aspx?gid=3267244",
+            "text": "Welcome to Cibo®!",
+            "fields": [
+                {
+                    "title": "“Where dreams develop into a reality”",
+                    "value": "Cibo® is an Italian-based restaurant, known for its satisfaction and superior quality provided.",
+                    "short": false
+                }
+            ],
+            "footer": "Cibo",
+            "ts": 123456789
+        }
+    ]
+}
   }
 });
 
