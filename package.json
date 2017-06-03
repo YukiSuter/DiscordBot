@@ -1,0 +1,17 @@
+{
+  "name": "cibobot",
+  "version": "1.0.0",
+  "description": "A bot made for the Cibo group",
+  "main": "index.js",
+  "scripts": {
+    "test": "@Cibo"
+  },
+  "keywords": [
+    "Cibo"
+  ],
+  "author": "Yuki Suter (yuki7144)",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.1.0"
+  }
+}
