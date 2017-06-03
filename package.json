@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "A bot made for the Cibo group",
   "main": "index.js",
-  "scripts": {
-    "test": "@Cibo"
-  },
+  "scripts": {"start": "node index.js"},
   "keywords": [
     "Cibo"
   ],
