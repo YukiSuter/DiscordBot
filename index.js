@@ -35,6 +35,7 @@ client.on('message', message => {
 client.on('message', message => {
   if (message.content === '!help') {
     message.reply('some commands include "!about", "!join" and "!music" <== Currently not working :I');
+    message.channel.messageReactionAdd(":delicious:");
   }
 });
 
